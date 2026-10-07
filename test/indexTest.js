@@ -3,7 +3,7 @@ describe('Basketball Stats', function () {
   describe('numPointsScored', function () {
     it('should return points scored by a player', function () {
       expect(numPointsScored('Alan Anderson')).to.equal(22);
-      expect(numPointsScored('Ben Gordon')).to.equal(33);
+      expect(numPointsScored('Ben Gordon')).to.equal(8);
     });
   });
 
@@ -48,9 +48,9 @@ describe('Basketball Stats', function () {
       });
 
       expect(playerStats('Ben Gordon')).to.deep.equal({
-        number: 8,
+        number: 33,
         shoe: 15,
-        points: 33,
+        points: 8,
         rebounds: 3,
         assists: 2,
         steals: 1,
@@ -114,7 +114,7 @@ const gameObject = {
         number: 1,
         shoe: 19,
         points: 16,
-        rebounds: 2,
+        rebounds: 12,
         assists: 1,
         steals: 1,
         blocks: 1,
@@ -192,7 +192,7 @@ const gameObject = {
         lastName: 'Gordon',
         number: 33,
         shoe: 15,
-        points: 33,
+        points: 8,
         rebounds: 3,
         assists: 2,
         steals: 1,
