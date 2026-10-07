@@ -2,14 +2,14 @@ describe('Basketball Stats', function () {
   
   describe('numPointsScored', function () {
     it('should return points scored by a player', function () {
-      expect(numPointsScored('Alan Anderson')).to.equal(22);
+      expect(numPointsScored('Stephen Curry')).to.equal(22);
       expect(numPointsScored('Ben Gordon')).to.equal(8);
     });
   });
 
   describe('shoeSize', function () {
     it('should return shoe size of a player', function () {
-      expect(shoeSize('Alan Anderson')).to.equal(16);
+      expect(shoeSize('Stephen Curry')).to.equal(16);
       expect(shoeSize('Ben Gordon')).to.equal(15);
     });
   });
@@ -36,7 +36,7 @@ describe('Basketball Stats', function () {
 
   describe('playerStats', function () {
     it('should return stats of a player', function () {
-      expect(playerStats('Alan Anderson')).to.deep.equal({
+      expect(playerStats('Stephen Curry')).to.deep.equal({
         number: 0,
         shoe: 16,
         points: 22,
@@ -73,8 +73,8 @@ const gameObject = {
     colors: ['Black', 'White'],
     players: [
       {
-        firstName: 'Alan',
-        lastName: 'Anderson',
+        firstName: 'Stephen',
+        lastName: 'Curry',
         number: 0,
         shoe: 16,
         points: 22,
@@ -85,8 +85,8 @@ const gameObject = {
         slamDunks: 1
       },
       {
-        firstName: 'Reggie',
-        lastName: 'Evans',
+        firstName: 'Lebron',
+        lastName: 'James',
         number: 30,
         shoe: 14,
         points: 12,
